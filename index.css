@@ -1,14 +1,25 @@
-.datos{  /*  Sirve para dar un tamaño al div en total de las fotos */
+.presentacion{  /*  Sirve para dar un tamaño al div en total de las fotos */
+    background-color: lightgrey;
     width: 485px;
     height: 100%;
+    float: left;
     position: absolute;
 }
 
 #logo{ /* Sirve para la posición de la foto*/ 
-
-    
-    position: relative;
     left: 125px;
-    top: 150px;
-    
+    top: 150px;  
+    position: relative;  
+}
+
+.trama{/* Posicionamos el tema a la derecha de los datos */
+    position: absolute;
+    left: 490px;
+}
+
+.presentacion p{
+    position: relative;
+    font-weight: bold;
+    padding: 25px;
+    top: 150px;   
 }
