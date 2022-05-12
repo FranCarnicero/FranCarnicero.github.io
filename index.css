@@ -5,28 +5,23 @@
     float: left;
     position: absolute;
 }
-
 #logo{ /* Sirve para la posición de la foto*/ 
     left: 125px;
     top: 150px;  
     position: relative;  
 }
-
 .trama{/* Posicionamos el tema a la derecha de los datos */
     position: absolute;
     left: 490px;
-
     height: 670px;
 }
-
 .presentacion p{
     position: relative;
     font-weight: bold;
     padding: 25px;
     top: 150px;   
 }
-
-#estudios{
+#desarrollo{        /* Se posiciona debajo de la presentacion el desarrollo de la página */
     position: relative;
     top: 600px;
     padding: 10px;
