@@ -1,7 +1,7 @@
-.presentacion{  /*  Sirve para dar un tamaño al div en total de las fotos */
+.presentacion{  /*  Sirve para dar un tamaño al div de la presentacion */
     background-color: lightgrey;
     width: 485px;
-    height: 100%;
+    height: 550px;
     float: left;
     position: absolute;
 }
@@ -15,6 +15,8 @@
 .trama{/* Posicionamos el tema a la derecha de los datos */
     position: absolute;
     left: 490px;
+
+    height: 670px;
 }
 
 .presentacion p{
@@ -22,4 +24,10 @@
     font-weight: bold;
     padding: 25px;
     top: 150px;   
+}
+
+#estudios{
+    position: relative;
+    top: 600px;
+    padding: 10px;
 }
